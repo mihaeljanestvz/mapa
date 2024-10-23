@@ -1,9 +1,9 @@
 <?php
-// Provjera da li kolačić "user" postoji
+
 if (isset($_COOKIE["user"])) {
     $user = $_COOKIE["user"];
 } else {
-    // Ako nema kolačića, korisnik nije prijavljen i vraća se na login stranicu
+    
     header("Location: login.php");
     exit();
 }

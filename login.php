@@ -1,12 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Preuzimanje korisničkog imena iz forme
+   
     $username = $_POST['username'];
 
-    // Postavljanje kolačića "user" koji traje 1 sat
+    
     setcookie("user", $username, time() + 3600, "/");
 
-    // Redirekcija na stranicu dobrodošlice
     header("Location: welcome.php");
     exit();
 }
