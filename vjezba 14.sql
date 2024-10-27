@@ -1,0 +1,14 @@
+CREATE TABLE users (
+    id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50),
+    lastname VARCHAR(50),
+    username VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    country_code VARCHAR(3) NOT NULL,
+    about TEXT,
+    created TINYINT(1) UNSIGNED NOT NULL,
+    modified TINYINT(1) UNSIGNED NOT NULL,
+    date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY username_key (username)
+);
