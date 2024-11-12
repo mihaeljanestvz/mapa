@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style4.css">
 </head>
 <body>
+<nav>
+            <ul>
+                <li><a href="index.php">Početna</a></li>
+                <li><a href="login3.php">Prijava</a></li>
+                <li><a href="register.php">Registracija</a></li>
+                <li><a href="oribolovu.php">O ribolovu</a></li>
+                <li><a href="kontakt.php">Kontakt</a></li>
+            </ul>
+        </nav>
     <div class="container">
         <h1>Registracija</h1>
         <form action="register_user.php" method="post">
@@ -27,11 +36,11 @@
 
             <label for="country_id">Država:</label>
             <select name="country_id" required>
-                <option value="1">Croatia</option>
-                <option value="2">Serbia</option>
-                <option value="3">Bosnia</option>
-                <option value="4">Slovenia</option>
-                <option value="5">Italy</option>
+                <option value="1">Hrvatska</option>
+                <option value="2">Srbija</option>
+                <option value="3">Bosna i Hercegovina</option>
+                <option value="4">Slovenija</option>
+                <option value="5">Italija</option>
             </select>
 
             <input type="submit" value="Registriraj se">

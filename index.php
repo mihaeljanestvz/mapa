@@ -13,8 +13,8 @@
             <li><a href="index.php">Početna</a></li>
             <li><a href="login3.php">Prijava</a></li>
             <li><a href="register.php">Registracija</a></li>
-            <li><a href="#">O ribolovu</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="oribolovu.php">O ribolovu</a></li>
+            <li><a href="kontakt.php">Kontakt</a></li>
         </ul>
     </nav>
 
