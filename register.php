@@ -7,15 +7,7 @@
     <link rel="stylesheet" href="style4.css">
 </head>
 <body>
-<nav>
-            <ul>
-                <li><a href="index.php">Početna</a></li>
-                <li><a href="login3.php">Prijava</a></li>
-                <li><a href="register.php">Registracija</a></li>
-                <li><a href="oribolovu.php">O ribolovu</a></li>
-                <li><a href="kontakt.php">Kontakt</a></li>
-            </ul>
-        </nav>
+
     <div class="container">
         <h1>Registracija</h1>
         <form action="register_user.php" method="post">

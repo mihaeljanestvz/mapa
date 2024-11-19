@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigacija -->
+   
     <nav>
         <ul>
             <li><a href="index.php">Početna</a></li>
@@ -18,12 +18,12 @@
         </ul>
     </nav>
 
-    <!-- Banner -->
+    
     <header>
         <img src="images/banner.jpg" alt="Banner ribolova" class="banner">
     </header>
 
-    <!-- Sadržaj stranice -->
+    
     <section>
         <h1>Dobrodošli na stranicu o ribolovu</h1>
         <p>Ovdje možete pronaći sve informacije vezane uz ribolov.</p>
@@ -44,7 +44,7 @@
             </p>
         </section>
 
-    <!-- Footer -->
+    
     <footer>
         <p>&copy; 2024 Ribolov</p>
     </footer>

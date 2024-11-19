@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- Navigacija -->
+        
         <nav>
             <ul>
                 <li><a href="index.php">Početna</a></li>
@@ -19,7 +19,7 @@
             </ul>
         </nav>
 
-        <!-- Sadržaj kontakt stranice -->
+        
         <section class="contact-content">
             <h1>Kontaktirajte nas</h1>
             <p>Imate pitanje, prijedlog ili trebate pomoć? Ispunite obrazac i javit ćemo vam se u najkraćem mogućem roku!</p>
@@ -38,7 +38,7 @@
             </form>
         </section>
 
-        <!-- Footer -->
+      
         <footer>
             <p>&copy; 2024 Ribolov</p>
         </footer>

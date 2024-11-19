@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styleoribolovu.css">
    
     <style>
-        /* Stilovi za vremensku prognozu */
+       
         .weather {
             background-color: #2d3436;
             color: #ffffff;
@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-     <!-- Navigacija -->
+    
      <nav>
             <ul>
                 <li><a href="index.php">Početna</a></li>
@@ -37,17 +37,17 @@
         </nav>
     <div class="container">
 
-        <!-- Vremenska prognoza -->
+        
         <div class="weather">
             <h3>Vremenska prognoza za ribolov</h3>
-            <p id="city-name">Grad: Zagreb</p> <!-- Prikaz grada -->
+            <p id="city-name">Grad: Zagreb</p> 
             <p id="weather-desc">Učitavanje vremenskih podataka...</p>
             <p id="temperature"></p>
             <p id="wind"></p>
             <p id="humidity"></p>
         </div>
 
-     <!-- Slika prilagođena ribolovu -->
+    
      <div class="image-container">
             <img src="images/banner.jpg" alt="Ribolov na jezeru" class="main-image">
             <div class="image-overlay">
@@ -57,7 +57,7 @@
         </div>
         </header>
 
-        <!-- Sadržaj stranice -->
+       
 <section class="content">
     <h2>O ribolovu</h2>
     <p>
@@ -91,16 +91,16 @@
 </section>
 
 
-        <!-- Footer -->
+       
         <footer>
             <p>&copy; 2024 Ribolov</p>
         </footer>
     </div>
 
-    <!-- JavaScript za dohvaćanje vremenskih podataka iz OpenWeather API-ja -->
+    
     <script>
-        const apiKey = 'e3b6e0bbda13422c434b9a77a747ac1b'; // Zamijenite s vašim API ključem
-const city = 'Zagreb'; // Grad za koji prikazujemo prognozu
+        const apiKey = 'e3b6e0bbda13422c434b9a77a747ac1b'; 
+const city = 'Zagreb'; 
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=hr`;
 
 async function fetchWeather() {
@@ -123,7 +123,7 @@ function displayWeather(data) {
     document.getElementById('humidity').textContent = `Vlažnost: ${data.main.humidity}%`;
 }
 
-// Poziv funkcije za dohvaćanje vremenskih podataka
+
 fetchWeather();
 
     </script>
